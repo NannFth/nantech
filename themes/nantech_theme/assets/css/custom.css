@@ -1,0 +1,288 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+
+/* ===== Import Google Fonts ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+/* ===== NanTech Store Custom Theme - Tahap 1: Warna & Brand Identity ===== */
+
+:root {
+  --nantech-navy: #1a3a4a;
+  --nantech-teal: #2d7d8a;
+  --nantech-teal-dark: #1f5a64;
+}
+
+/* ---- Tombol "Tambah ke keranjang" di product card ---- */
+.product-add-to-cart .btn-primary,
+.product-miniature .btn-primary,
+button.add-to-cart {
+  background-color: var(--nantech-teal) !important;
+  border-color: var(--nantech-teal) !important;
+  color: #fff !important;
+}
+
+.product-add-to-cart .btn-primary:hover,
+button.add-to-cart:hover {
+  background-color: var(--nantech-teal-dark) !important;
+  border-color: var(--nantech-teal-dark) !important;
+}
+
+/* ---- Tombol utama lain (checkout, submit form, dll) ---- */
+#content .btn-primary,
+#checkout .btn-primary {
+  background-color: var(--nantech-teal) !important;
+  border-color: var(--nantech-teal) !important;
+}
+
+#content .btn-primary:hover,
+#checkout .btn-primary:hover {
+  background-color: var(--nantech-teal-dark) !important;
+  border-color: var(--nantech-teal-dark) !important;
+}
+
+/* ---- Badge "Baru" pada produk ---- */
+ul.product-flags li.badge.new,
+.product-flags .badge.new,
+.badge.new {
+  background-color: #2d7d8a !important;
+}
+
+/* ---- Badge diskon/obral (beda warna dari "Baru") ---- */
+ul.product-flags li.badge.discount-percentage,
+ul.product-flags li.badge.on-sale,
+.badge.discount-percentage,
+.badge.on-sale {
+  background-color: #1a3a4a !important;
+}
+
+/* ---- Harga produk ---- */
+.product-miniature__price,
+.product-miniature__discount-price {
+  color: var(--nantech-navy) !important;
+  font-weight: 700;
+}
+
+/* ---- Link nama produk saat hover ---- */
+.product-miniature__title:hover {
+  color: var(--nantech-teal) !important;
+}
+
+/* ---- Menu navigasi utama saat hover/active ---- */
+#header .menu > li > a:hover,
+#header .menu > li.active > a {
+  color: var(--nantech-teal) !important;
+}
+
+/* ===== NanTech Store Custom Theme - Tahap 2: Tipografi ===== */
+
+/* Body text pakai Inter */
+body {
+  font-family: 'Inter', sans-serif !important;
+}
+
+/* Semua heading pakai Poppins */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3,
+.product-miniature__title,
+#header .logo-title,
+.page-heading,
+.block-title {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 600 !important;
+}
+
+/* Nama produk sedikit lebih tegas */
+.product-miniature__title {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.01em;
+}
+
+/* Tombol pakai Poppins biar lebih tegas */
+.btn, button, .btn-primary {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 600 !important;
+}
+
+/* ===== NanTech Store Custom Theme - Tahap 3: Header & Navigasi ===== */
+
+#header.js-sticky-header {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+}
+
+.header-bottom {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/* Nama toko "NanTech Store" pakai warna navy + font Poppins */
+.header-bottom__h1 span {
+  font-family: 'Poppins', sans-serif !important;
+  color: #1a3a4a !important;
+}
+
+/* Search bar lebih rounded & modern */
+#_desktop_ps_searchbar input,
+.ps-searchbar-mobile input {
+  border-radius: 8px !important;
+  border: 1px solid #ddd !important;
+}
+
+/* Menu utama spacing lebih lega + warna hover */
+.ps-mainmenu a {
+  padding: 12px 18px !important;
+  font-weight: 500;
+}
+
+.ps-mainmenu a:hover {
+  color: #2d7d8a !important;
+}
+
+/* ===== NanTech Store Custom Theme - Tahap 4: Product Card ===== */
+
+/* Card produk: rounded corner + shadow lembut + transisi halus */
+.product-miniature {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.product-miniature:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Gambar produk: efek zoom halus saat hover */
+.product-miniature__image-container {
+  overflow: hidden;
+  border-radius: 12px 12px 0 0;
+}
+
+.product-miniature__image {
+  transition: transform 0.35s ease;
+}
+
+.product-miniature:hover .product-miniature__image {
+  transform: scale(1.06);
+}
+
+/* Info produk (nama, harga) dapat padding lebih lega */
+.product-miniature__infos {
+  padding: 14px 16px !important;
+}
+
+/* Tombol quick view muncul lebih smooth saat hover */
+.product-miniature__quickview-button {
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+/* ===== NanTech Store Custom Theme - Tahap 5: Banner & Section Spacing ===== */
+
+/* Jarak antar section lebih lega, tapi gak berlebihan */
+.ps-newproducts,
+.ps-bestsellers,
+.ps-featuredproducts {
+  padding-bottom: 16px !important;
+}
+
+/* Kurangi jarak berlebih di sekitar banner promo */
+section.ps-banner,
+.ps-banner {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.ps-newproducts {
+  padding-top: 24px !important;
+}
+
+/* Section title (contoh: "Latest arrivals", "Terlaris") dikasih aksen garis teal */
+.section-title {
+  position: relative;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 700 !important;
+  color: #1a3a4a !important;
+  padding-bottom: 12px;
+  margin-bottom: 24px !important;
+  display: inline-block;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 48px;
+  height: 4px;
+  background-color: #2d7d8a;
+  border-radius: 2px;
+}
+
+/* Selang-seling background section biar gak monoton putih semua */
+.ps-newproducts {
+  background-color: #f7f9fa;
+}
+
+/* ===== NanTech Store Custom Theme - Tahap 6: Footer ===== */
+
+/* Background footer: navy, bukan hitam pekat */
+#footer,
+.footer-container {
+  background-color: #1a3a4a !important;
+}
+
+/* Judul kolom footer (Produk, Perusahaan kami, dll) */
+#footer .h3,
+#footer .footer-block-title,
+#footer h3 {
+  color: #ffffff !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 600 !important;
+}
+
+/* Link-link di footer: sedikit lebih terang & hover teal */
+#footer a {
+  color: #cfe0e5 !important;
+  transition: color 0.2s ease;
+}
+
+#footer a:hover {
+  color: #4a9ba8 !important;
+}
+
+/* Bagian newsletter di atas footer */
+.block-newsletter,
+#footer .newsletter {
+  background-color: #f7f9fa !important;
+}
+
+.block-newsletter .btn-primary,
+#footer .newsletter .btn-primary {
+  background-color: #2d7d8a !important;
+  border-color: #2d7d8a !important;
+}
+
+/* Copyright text di paling bawah */
+#footer .copyright,
+.footer-container .copyright {
+  color: #a8c0c8 !important;
+}
+
+/* ---- Fix tombol outline (Lihat detail, Semua produk baru, dll) ---- */
+a.btn-outline-primary,
+.btn-outline-primary {
+  color: #2d7d8a !important;
+  border-color: #2d7d8a !important;
+  background-color: transparent !important;
+}
+
+a.btn-outline-primary:hover,
+.btn-outline-primary:hover {
+  background-color: #2d7d8a !important;
+  border-color: #2d7d8a !important;
+  color: #fff !important;
+}

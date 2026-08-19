@@ -1,0 +1,19 @@
+*ERROR* 	v9.1.4	2026/08/06 - 03:29:08: Link to database cannot be established: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it at line 117 in file classes/db/DbPDO.php
+*ERROR* 	v9.1.4	2026/08/06 - 09:43:58: No template found for index at line 45 in file classes/Smarty/TemplateFinder.php
+*ERROR* 	v9.1.4	2026/08/06 - 09:44:11: No template found for index at line 45 in file classes/Smarty/TemplateFinder.php
+*ERROR* 	v9.1.4	2026/08/06 - 09:51:34: No template found for index at line 45 in file classes/Smarty/TemplateFinder.php
+*ERROR* 	v9.1.4	2026/08/06 - 09:54:32: No template found for index at line 45 in file classes/Smarty/TemplateFinder.php
+*ERROR* 	v9.1.4	2026/08/06 - 09:54:39: No template found for index at line 45 in file classes/Smarty/TemplateFinder.php
+*ERROR* 	v9.1.4	2026/08/06 - 09:54:40: No template found for index at line 45 in file classes/Smarty/TemplateFinder.php
+*ERROR* 	v9.1.4	2026/08/06 - 09:54:40: No template found for index at line 45 in file classes/Smarty/TemplateFinder.php
+*ERROR* 	v9.1.4	2026/08/06 - 09:54:40: No template found for index at line 45 in file classes/Smarty/TemplateFinder.php
+*ERROR* 	v9.1.4	2026/08/06 - 09:54:40: No template found for index at line 45 in file classes/Smarty/TemplateFinder.php
+*ERROR* 	v9.1.4	2026/08/06 - 09:54:40: No template found for index at line 45 in file classes/Smarty/TemplateFinder.php
+*ERROR* 	v9.1.4	2026/08/06 - 09:54:40: No template found for index at line 45 in file classes/Smarty/TemplateFinder.php
+*ERROR* 	v9.1.4	2026/08/06 - 09:54:41: No template found for index at line 45 in file classes/Smarty/TemplateFinder.php
+*ERROR* 	v9.1.4	2026/08/06 - 09:54:41: No template found for index at line 45 in file classes/Smarty/TemplateFinder.php
+*ERROR* 	v9.1.4	2026/08/06 - 09:54:41: No template found for index at line 45 in file classes/Smarty/TemplateFinder.php
+*ERROR* 	v9.1.4	2026/08/06 - 09:54:41: No template found for index at line 45 in file classes/Smarty/TemplateFinder.php
+*ERROR* 	v9.1.4	2026/08/06 - 09:54:42: No template found for index at line 45 in file classes/Smarty/TemplateFinder.php
+*ERROR* 	v9.1.4	2026/08/06 - 09:54:42: No template found for index at line 45 in file classes/Smarty/TemplateFinder.php
+*ERROR* 	v9.1.4	2026/08/06 - 09:54:59: No template found for index at line 45 in file classes/Smarty/TemplateFinder.php

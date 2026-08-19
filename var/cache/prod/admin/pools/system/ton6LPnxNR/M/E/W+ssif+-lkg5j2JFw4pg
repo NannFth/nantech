@@ -1,0 +1,130 @@
+<?php //is_granted%2528%2527read%2527%252C%2520request.get%2528%2527_legacy_controller%2527%2529%2529%2520%257C%257C%2520is_granted%2528%2527create%2527%252C%2520%2527AdminProducts%2527%2529%252F%252Fauth_checker%257Cobject%257Crequest%257Crole_names%257Csubject%257Ctoken%257Ctrust_resolver%257Cuser
+
+return [PHP_INT_MAX, new class() implements \Symfony\Component\Cache\Traits\CachedValueInterface { public function getValue(): mixed { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\ExpressionLanguage\\ParsedExpression'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\ExpressionLanguage\\ParsedExpression')),
+        clone ($p['Symfony\\Component\\ExpressionLanguage\\Node\\BinaryNode'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\ExpressionLanguage\\Node\\BinaryNode')),
+        clone ($p['Symfony\\Component\\ExpressionLanguage\\Node\\FunctionNode'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\ExpressionLanguage\\Node\\FunctionNode')),
+        clone ($p['Symfony\\Component\\ExpressionLanguage\\Node\\Node'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\ExpressionLanguage\\Node\\Node')),
+        clone ($p['Symfony\\Component\\ExpressionLanguage\\Node\\ConstantNode'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\ExpressionLanguage\\Node\\ConstantNode')),
+        clone ($p['Symfony\\Component\\ExpressionLanguage\\Node\\GetAttrNode'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\ExpressionLanguage\\Node\\GetAttrNode')),
+        clone ($p['Symfony\\Component\\ExpressionLanguage\\Node\\NameNode'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\ExpressionLanguage\\Node\\NameNode')),
+        clone $p['Symfony\\Component\\ExpressionLanguage\\Node\\ConstantNode'],
+        clone ($p['Symfony\\Component\\ExpressionLanguage\\Node\\ArgumentsNode'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\ExpressionLanguage\\Node\\ArgumentsNode')),
+        clone $p['Symfony\\Component\\ExpressionLanguage\\Node\\ConstantNode'],
+        clone $p['Symfony\\Component\\ExpressionLanguage\\Node\\ConstantNode'],
+        clone $p['Symfony\\Component\\ExpressionLanguage\\Node\\FunctionNode'],
+        clone $p['Symfony\\Component\\ExpressionLanguage\\Node\\Node'],
+        clone $p['Symfony\\Component\\ExpressionLanguage\\Node\\ConstantNode'],
+        clone $p['Symfony\\Component\\ExpressionLanguage\\Node\\ConstantNode'],
+    ],
+    null,
+    [
+        'Symfony\\Component\\ExpressionLanguage\\Expression' => [
+            'expression' => [
+                'is_granted(\'read\', request.get(\'_legacy_controller\')) || is_granted(\'create\', \'AdminProducts\')',
+            ],
+        ],
+        'Symfony\\Component\\ExpressionLanguage\\ParsedExpression' => [
+            'nodes' => [
+                $o[1],
+            ],
+        ],
+        'stdClass' => [
+            'nodes' => [
+                1 => [
+                    'left' => $o[2],
+                    'right' => $o[11],
+                ],
+                [
+                    'arguments' => $o[3],
+                ],
+                [
+                    $o[4],
+                    $o[5],
+                ],
+                8 => [
+                    $o[9],
+                    $o[10],
+                ],
+                11 => [
+                    'arguments' => $o[12],
+                ],
+                [
+                    $o[13],
+                    $o[14],
+                ],
+            ],
+            'attributes' => [
+                1 => [
+                    'operator' => '||',
+                ],
+                [
+                    'name' => 'is_granted',
+                ],
+                4 => [
+                    'value' => 'read',
+                ],
+                6 => [
+                    'name' => 'request',
+                ],
+                [
+                    'value' => 'get',
+                ],
+                9 => [
+                    'value' => 0,
+                ],
+                [
+                    'value' => '_legacy_controller',
+                ],
+                [
+                    'name' => 'is_granted',
+                ],
+                13 => [
+                    'value' => 'create',
+                ],
+                [
+                    'value' => 'AdminProducts',
+                ],
+            ],
+        ],
+        'Symfony\\Component\\ExpressionLanguage\\Node\\ConstantNode' => [
+            'isNullSafe' => [
+                4 => false,
+                7 => false,
+                9 => false,
+                false,
+                13 => false,
+                false,
+            ],
+            'isIdentifier' => [
+                4 => false,
+                7 => true,
+                9 => false,
+                false,
+                13 => false,
+                false,
+            ],
+        ],
+        'Symfony\\Component\\ExpressionLanguage\\Node\\ArrayNode' => [
+            'index' => [
+                8 => 0,
+            ],
+        ],
+    ],
+    $o[0],
+    [
+        -5 => [
+            'nodes' => [
+                'node' => $o[6],
+                'attribute' => $o[7],
+                'arguments' => $o[8],
+            ],
+            'attributes' => [
+                'type' => 2,
+                'is_null_coalesce' => false,
+                'is_short_circuited' => false,
+            ],
+        ],
+    ]
+); } }];

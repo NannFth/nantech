@@ -1,0 +1,13 @@
+*INFO* 	v9.1.4	2026/07/23 - 10:25:46: Installing database
+*INFO* 	v9.1.4	2026/07/23 - 10:25:46: Dropping database tables
+*INFO* 	v9.1.4	2026/07/23 - 10:25:49: Installing default data
+*INFO* 	v9.1.4	2026/07/23 - 10:25:49: Truncating database
+*INFO* 	v9.1.4	2026/07/23 - 10:25:52: Creating shop
+*INFO* 	v9.1.4	2026/07/23 - 10:25:52: Installing languages: id
+*INFO* 	v9.1.4	2026/07/23 - 10:27:28: Populating database
+*INFO* 	v9.1.4	2026/07/23 - 10:27:29: Configuring shop
+*INFO* 	v9.1.4	2026/07/23 - 10:27:31: Installing modules on disk
+*INFO* 	v9.1.4	2026/07/23 - 10:35:35: Installing theme hummingbird
+*INFO* 	v9.1.4	2026/07/23 - 10:36:47: Installing fixtures
+*INFO* 	v9.1.4	2026/07/23 - 10:38:59: The admin folder was renamed into admin920qwe5isyiw2fkwogd/
+*INFO* 	v9.1.4	2026/07/23 - 10:38:59: You can now access your backoffice at http://localhost/nantech-store/admin920qwe5isyiw2fkwogd/.

@@ -1,0 +1,35 @@
+[2026-07-23T10:36:02.261126+07:00] ps_checkout.ERROR: ExecKernelCacheClearer: Could not clear cache for admin env prod result: 1 output: array (   0 => '\'php\' is not recognized as an internal or external command,',   1 => 'operable program or batch file.', ) [] {"process_id":9804}
+[2026-07-23T10:36:44.542965+07:00] ps_checkout.INFO: ApplicationKernelCacheClearer: Successfully cleared cache for admin env prod debug on [] {"process_id":9804}
+[2026-07-23T10:36:44.555052+07:00] ps_checkout.INFO: ApplicationKernelCacheClearer: Successfully cleared cache for admin env prod debug off [] {"process_id":9804}
+[2026-07-23T10:36:45.908488+07:00] ps_checkout.INFO: ApplicationKernelCacheClearer: Successfully warmed up cache for admin env prod debug on [] {"process_id":9804}
+[2026-07-23T10:36:46.091370+07:00] ps_checkout.INFO: ApplicationKernelCacheClearer: Successfully warmed up cache for admin env prod debug off [] {"process_id":9804}
+[2026-07-23T10:36:46.091528+07:00] ps_checkout.DEBUG: SymfonyCacheClearer: No symfony cache to clear for admin-api env prod [] {"process_id":9804}
+[2026-07-23T10:36:46.091586+07:00] ps_checkout.DEBUG: SymfonyCacheClearer: No symfony cache to clear for front env prod [] {"process_id":9804}
+[2026-07-23T10:36:46.093468+07:00] ps_checkout.DEBUG: SymfonyCacheClearer: No symfony cache to clear for admin env dev [] {"process_id":9804}
+[2026-07-23T10:36:46.093549+07:00] ps_checkout.DEBUG: SymfonyCacheClearer: No symfony cache to clear for admin-api env dev [] {"process_id":9804}
+[2026-07-23T10:36:46.093589+07:00] ps_checkout.DEBUG: SymfonyCacheClearer: No symfony cache to clear for front env dev [] {"process_id":9804}
+[2026-07-23T10:37:07.292391+07:00] ps_checkout.ERROR: ExecKernelCacheClearer: Could not clear cache for admin env prod result: 1 output: array (   0 => '\'php\' is not recognized as an internal or external command,',   1 => 'operable program or batch file.', ) [] {"process_id":9804}
+[2026-07-23T10:37:08.679411+07:00] ps_checkout.INFO: ApplicationKernelCacheClearer: Successfully cleared cache for admin env prod debug on [] {"process_id":9804}
+[2026-07-23T10:37:48.360687+07:00] ps_checkout.ERROR: SymfonyCacheClearer: Error while clearing cache for admin env prod using PrestaShop\PrestaShop\Adapter\Cache\Clearer\Symfony\ApplicationKernelCacheClearer: Warning: require(C:\xampp\htdocs\nantech-store\var\cache\prod\admin\ContainerLe7Dgt8\getHookModuleFilterService.php): Failed to open stream: No such file or directory [] {"process_id":9804}
+[2026-07-23T10:37:48.360922+07:00] ps_checkout.ERROR: SymfonyCacheClearer: Something went wrong while clearing cache: Warning: require(C:\xampp\htdocs\nantech-store\var\cache\prod\admin\ContainerLe7Dgt8\getFilesystemKernelCacheClearerService.php): Failed to open stream: No such file or directory [] {"process_id":9804}
+[2026-07-23T10:38:00.046528+07:00] ps_checkout.ERROR: ExecKernelCacheClearer: Could not clear cache for admin env prod result: 1 output: array (   0 => '\'php\' is not recognized as an internal or external command,',   1 => 'operable program or batch file.', ) [] {"process_id":9804}
+[2026-07-23T10:38:42.364383+07:00] ps_checkout.INFO: ApplicationKernelCacheClearer: Successfully cleared cache for admin env prod debug on [] {"process_id":9804}
+[2026-07-23T10:38:42.376836+07:00] ps_checkout.INFO: ApplicationKernelCacheClearer: Successfully cleared cache for admin env prod debug off [] {"process_id":9804}
+[2026-07-23T10:38:44.199850+07:00] ps_checkout.INFO: ApplicationKernelCacheClearer: Successfully warmed up cache for admin env prod debug on [] {"process_id":9804}
+[2026-07-23T10:38:58.686294+07:00] ps_checkout.INFO: ApplicationKernelCacheClearer: Successfully warmed up cache for admin env prod debug off [] {"process_id":9804}
+[2026-07-23T10:38:58.686539+07:00] ps_checkout.DEBUG: SymfonyCacheClearer: No symfony cache to clear for admin-api env prod [] {"process_id":9804}
+[2026-07-23T10:38:58.686685+07:00] ps_checkout.DEBUG: SymfonyCacheClearer: No symfony cache to clear for front env prod [] {"process_id":9804}
+[2026-07-23T10:38:58.688858+07:00] ps_checkout.DEBUG: SymfonyCacheClearer: No symfony cache to clear for admin env dev [] {"process_id":9804}
+[2026-07-23T10:38:58.688970+07:00] ps_checkout.DEBUG: SymfonyCacheClearer: No symfony cache to clear for admin-api env dev [] {"process_id":9804}
+[2026-07-23T10:38:58.689016+07:00] ps_checkout.DEBUG: SymfonyCacheClearer: No symfony cache to clear for front env dev [] {"process_id":9804}
+[2026-07-23T10:39:00.017609+07:00] ps_checkout.ERROR: ExecKernelCacheClearer: Could not clear cache for admin env prod result: 1 output: array (   0 => '\'php\' is not recognized as an internal or external command,',   1 => 'operable program or batch file.', ) [] {"process_id":9804}
+[2026-07-23T10:39:42.846347+07:00] ps_checkout.INFO: ApplicationKernelCacheClearer: Successfully cleared cache for admin env prod debug on [] {"process_id":9804}
+[2026-07-23T10:39:44.401330+07:00] ps_checkout.INFO: ApplicationKernelCacheClearer: Successfully cleared cache for admin env prod debug off [] {"process_id":9804}
+[2026-07-23T10:39:44.402684+07:00] ps_checkout.ERROR: SymfonyCacheClearer: Error while clearing cache for admin env prod using PrestaShop\PrestaShop\Adapter\Cache\Clearer\Symfony\ApplicationKernelCacheClearer: Failed opening required 'C:\xampp\htdocs\nantech-store\var\cache\prod\admin\ContainerABw1Th6\getConsole_ErrorListenerService.php' (include_path='C:\xampp\php\PEAR') [] {"process_id":9804}
+[2026-07-23T10:39:44.403067+07:00] ps_checkout.DEBUG: FilesystemKernelCacheClearer: Trying manual removal on trial 1/5 of cache folder C:\xampp\htdocs\nantech-store/var/cache/prod/admin [] {"process_id":9804}
+[2026-07-23T10:39:44.962638+07:00] ps_checkout.INFO: FilesystemKernelCacheClearer: Cache folder C:\xampp\htdocs\nantech-store/var/cache/prod/admin successfully cleared manually [] {"process_id":9804}
+[2026-07-23T10:39:44.962903+07:00] ps_checkout.DEBUG: SymfonyCacheClearer: No symfony cache to clear for admin-api env prod [] {"process_id":9804}
+[2026-07-23T10:39:44.962974+07:00] ps_checkout.DEBUG: SymfonyCacheClearer: No symfony cache to clear for front env prod [] {"process_id":9804}
+[2026-07-23T10:39:44.965041+07:00] ps_checkout.DEBUG: SymfonyCacheClearer: No symfony cache to clear for admin env dev [] {"process_id":9804}
+[2026-07-23T10:39:44.965126+07:00] ps_checkout.DEBUG: SymfonyCacheClearer: No symfony cache to clear for admin-api env dev [] {"process_id":9804}
+[2026-07-23T10:39:44.965267+07:00] ps_checkout.DEBUG: SymfonyCacheClearer: No symfony cache to clear for front env dev [] {"process_id":9804}

@@ -1,0 +1,16 @@
+parent: hummingbird
+name: nantech_theme
+display_name: NanTech Store Custom Theme
+version: 1.0.0
+
+assets:
+  use_parent_assets: false
+  css:
+    all:
+      - id: parent-theme-css
+        path: assets/css/theme.css
+        parent: true
+        priority: 100
+      - id: custom-theme-css
+        path: assets/css/custom.css
+        priority: 1000
